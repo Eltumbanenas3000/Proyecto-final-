@@ -7,7 +7,7 @@
 }
 
 body{
-    margin-top: 500px;
+    margin-top: 20px;
     text-align: center;
     font-family: sans-serif;
 
@@ -20,37 +20,42 @@ body{
     height: 30;
     background: #171717;
     width: 100%; 
+    position: sticky;
+    top: 0%;
 }
 
 .navbar {
     display: flex;
     margin-right: 10px;
+    position: sticky;
+    top: 20px;
 }
 
 
 .Nosotros {
     display: flex;
     height: 69vh !important;
-    background: url(./montañas.jpg) no-repeat center;
+    background: url(bienvenido.gif) no-repeat center;
     background-size: cover;
     justify-content: center; /* Centra el contenedor en el eje horizontal */
 }
 
 .info{
-    padding: 0 5% 1% ;
+    padding: 0 0% 0%;
 }
 .botones{
-    padding: 20px;
+    padding: 50px;
 }
 
 .btn {
     display: inline-block;
     margin-top: 15px;
-    padding: 10px  40px;
-    border: 2px solid color #9c27b0;
+    padding: 10px  30px;
+    border: 2px solid color #000000;
     color: #fff;
     text-decoration: none;
-    background: #9c27b0;
+    background: #000000;
+    margin-bottom: 15px;
   }
   
   .btn:hover {
@@ -64,6 +69,9 @@ body{
 
 .logo{
     margin-left: 30px;
+    margin-top: 40px;
+    width: 150px;
+
 }
 
 .logo a {
@@ -80,10 +88,12 @@ body{
     text-decoration: none;
     text-transform: uppercase;
     font-size: 20px;
+    
 }
 
 .navbar a:hover {
     background: #3f3f3f;
+
 }
 
 .title {
@@ -91,11 +101,13 @@ body{
     font-size: 60px;
     font-weight: 600;
     text-transform: uppercase;
+    color: #fff;
 }
 
 p { 
     margin-bottom: 40px;
     font-size: 18px;
+    color: #fff
 }
 
 .contacto {
@@ -112,3 +124,68 @@ img{
     align-items: center; 
     justify-content: center; 
 }
+
+.firstbox {
+    padding-top: 15px;
+    background-color: #1f1d1d;
+    padding: px 0; 
+    background-size: 0;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    
+}
+
+.box-container .box {
+    width: 200px; 
+    margin: 10px; 
+    
+}
+
+.box-container .box img {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 1rem;
+}
+
+.box-container .box h3 {
+    font-size: 20px;
+    color: #fff;
+}
+
+.about {
+    background: #171717;
+    background-size: cover;
+    background: #171717;
+    
+    
+}
+
+.precio {
+    background: url(GRADIANTE.gif) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    
+    }
+    
+.contacto {
+    padding-top: 0px;
+    background: #171717;
+    padding-bottom: 0;
+    font-size: 100%;
+}
+.titulos {
+    padding-top: 30px;
+    margin-top:  0px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
