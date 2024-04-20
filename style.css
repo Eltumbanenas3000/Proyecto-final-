@@ -49,6 +49,7 @@ body{
 
 .info{
     padding: 0 0% 0%;
+
 }
 .botones{
     padding: 50px;
@@ -189,7 +190,7 @@ img{
     background: url(GRADIANTE.gif) no-repeat center;
     background-size: cover;
     text-align: center;
-    
+    padding-top: 50px;
     }
     
 .contacto {
@@ -257,11 +258,7 @@ img{
     outline: 1px solid #1e92e9;
 
  }
- /* .btn-enviar {
-    font-size: 17px;
-    color: #fff;
-    margin-top: 20px;
- } */
+ 
  .pie-pag {
     padding: 40px 0;
     background-color: #333646;
@@ -271,7 +268,7 @@ img{
     color: #f9f9f9;
  }
 .mapita {
-    margin: 23px 250px;
+    margin: 23px 200px;
 
 }
 .btn-enviar {
